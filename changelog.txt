@@ -9,10 +9,11 @@ Changes:
 
 Mods / Features:
 - Mute: removes the sound you make so guards cannot hear you (may not work in multiplayer)
-- All weapons (except the grenade launcher) can penetrate walls
+- All weapons (except the grenade launcher) can penetrate walls (Stopped working)
 - Unlock all Weapon Parts
 
 Upcoming:
 - GUI revamp (fonts, customization, etc.)
 
 ## PUT LOADER IN A FOLDER
+
