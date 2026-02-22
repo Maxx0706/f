@@ -5,8 +5,10 @@ Changes:
 - Fixed bug on keybind selector for client fly
 - Reorganized internal structure
 - Updated loader with better injection
+- New Features (Press Purple Button)
 
 Upcoming:
 - GUI revamp: fonts, customization, etc.
 
 ## PUT LOADER IN A FOLDER
+
