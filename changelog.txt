@@ -1,1 +1,10 @@
-testing hosting
+## Version 1.3
+
+Changes:
+- Changed GUI for a cleaner look
+- Fixed bug on keybind selector for client fly
+- Reorganized internal structure
+- Updated loader with better injection
+
+Upcoming:
+- GUI revamp: fonts, customization, etc.
