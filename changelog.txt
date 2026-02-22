@@ -2,6 +2,10 @@
 
 In Testing:
 -Third Person
+-Remove HUD
+-Console Commands
+-Camera Angle
+-Executor
 
 Changes:
 - Changed GUI for a cleaner look
@@ -19,5 +23,6 @@ Upcoming:
 - GUI revamp (fonts, customization, etc.)
 
 ## PUT LOADER IN A FOLDER
+
 
 
