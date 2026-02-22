@@ -8,3 +8,5 @@ Changes:
 
 Upcoming:
 - GUI revamp: fonts, customization, etc.
+
+## PUT LOADER IN A FOLDER
