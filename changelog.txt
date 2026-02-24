@@ -39,7 +39,8 @@
 ## Developer Notes
 - Loader Location: The loader **must be placed inside its own folder**. Running it loose will cause paths to break and the loader will not function correctly.
 
-todo, proper jump/mantle, spinbot, reload.
+todo, proper jump/mantle, spinbot, reload. watermark lgbt fix
+
 
 
 
