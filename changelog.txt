@@ -5,6 +5,7 @@
 
 ## New Features
 - Rapid Fire: Globally adjusted RoundsPerMinute for all ranged weapons.
+- Triggerbot: Automatically fire at a valid target.
 
 ## Changes & Improvements
 - SDK Optimization: Switched actor scanning to ASBZCharacter for better performance and target acquisition.
@@ -23,3 +24,4 @@
 
 ## Developer Notes
 - Loader Location: The loader **must be placed inside its own folder**. Running it loose will cause paths to break and the loader will not function correctly.
+
