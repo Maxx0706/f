@@ -1,35 +1,25 @@
-## Version 1.31
+## Version 1.4.0 (Current Release)
 
-In Testing:
-- Third Person
-- Remove HUD
-- Console Commands
-- Camera Angle
-- Executor
+## Major Aim System Overhau
+- Target Persistence Fix: Optimized G::pSilentTarget handling to prevent "ghost locking" on invalid or dead actors.
 
-New Features:
-- Aim Fov
-- Rapid Fire
-- Lots More (Too lazy too list)
+## New Features
+- Rapid Fire: Globally adjusted RoundsPerMinute for all ranged weapons.
 
-Changes:
-- Changed GUI for a cleaner look
-- Fixed bug on keybind selector for client fly
-- Reorganized internal structure
-- Updated loader with better injection
-- New Features (Press Purple Button)
+## Changes & Improvements
+- SDK Optimization: Switched actor scanning to ASBZCharacter for better performance and target acquisition.
+- Weapon Data Backup System: Implemented a map-based backup system for weapon stats, ensuring game stability when switching between different weapon types.
+- Client Fly Zero Friction: Improved the "Client Move" logic to instantly stop velocity when movement keys are released.
+- Enhanced Instant Interaction: Refined the interaction loop to exclude bag items, preventing accidental bag-teleporting bugs.
 
-Mods / Features:
-- Mute: removes the sound you make so guards cannot hear you (may not work in multiplayer)
-- All weapons (except the grenade launcher) can penetrate walls (Stopped working)
-- Unlock all Weapon Parts
+## Planned Features & Known Issues
+- Aim FOV: Currently undergoing a full rewrite; logic is killing enemies outside the visual circle.
+- Visibility Checks: Implementing ray-tracing to prevent locking onto enemies behind solid walls.
+- Mute Guard Audio: Re-evaluating multiplayer sync for guard sound removal.
+- Unlock All Weapon Parts: Fixing registry calls for part availability.
+- Third Person / Camera Angle: Adjusting spring-arm offsets for better visibility.
+- Console Command Executor: Testing safety of internal engine command calls.
+- Instant Reload: Bypasses reload timers to instantly refill the current magazine.
 
-Upcoming:
-- GUI revamp (fonts, customization, etc.)
-
-## PUT LOADER IN A FOLDER
-
-
-
-
-
+## Developer Notes
+- Loader Location: The loader **must be placed inside its own folder**. Running it loose will cause paths to break and the loader will not function correctly.
