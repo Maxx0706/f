@@ -9,6 +9,7 @@
 ## New Features
 - Rapid Fire: Globally adjusted RoundsPerMinute for all ranged weapons.
 - Triggerbot: Automatically fire at a valid target.
+- Third Person / Camera Angle: Adjusting spring-arm offsets for better visibility.
 
 ## FOV Overhaul
 - FOV System: Integrated a dynamic FOV circle with advanced animation support.
@@ -27,12 +28,12 @@
 - Visibility Checks: Implementing ray-tracing to prevent locking onto enemies behind solid walls.
 - Mute Guard Audio: Re-evaluating multiplayer sync for guard sound removal.
 - Unlock All Weapon Parts: Fixing registry calls for part availability.
-- Third Person / Camera Angle: Adjusting spring-arm offsets for better visibility.
 - Console Command Executor: Testing safety of internal engine command calls.
 - Instant Reload: Bypasses reload timers to instantly refill the current magazine.
 
 ## Developer Notes
 - Loader Location: The loader **must be placed inside its own folder**. Running it loose will cause paths to break and the loader will not function correctly.
+
 
 
 
