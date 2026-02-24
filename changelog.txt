@@ -12,7 +12,6 @@
 - Third Person / Camera Angle: Adjusting spring-arm offsets for better visibility.
 - Jump Unmasked: Allows jumping without triggering mask-on restrictions or state checks.
 - Wallbang: Enables projectiles to penetrate surfaces by modifying collision and penetration logic.
-- Spinbot: Continuously rotates player orientation at adjustable speeds for desync-style visual effects and altered character facing behavior.
 
 ## NEXT FEATURE IS INSTANT RELOAD FOR RAGING
 
@@ -35,9 +34,11 @@
 - Unlock All Weapon Parts: Fixing registry calls for part availability.
 - Console Command Executor: Testing safety of internal engine command calls.
 - Instant Reload: Bypasses reload timers to instantly refill the current magazine.
+- Spinbot: Continuously rotates player orientation at adjustable speeds for desync-style visual effects and altered character facing behavior.
 
 ## Developer Notes
 - Loader Location: The loader **must be placed inside its own folder**. Running it loose will cause paths to break and the loader will not function correctly.
+
 
 
 
