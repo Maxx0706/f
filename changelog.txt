@@ -10,6 +10,8 @@
 - Rapid Fire: Globally adjusted RoundsPerMinute for all ranged weapons.
 - Triggerbot: Automatically fire at a valid target.
 - Third Person / Camera Angle: Adjusting spring-arm offsets for better visibility.
+- Jump Unmasked: Allows jumping without triggering mask-on restrictions or state checks.
+- Wallbang: Enables projectiles to penetrate surfaces by modifying collision and penetration logic.
 
 ## FOV Overhaul
 - FOV System: Integrated a dynamic FOV circle with advanced animation support.
@@ -33,6 +35,7 @@
 
 ## Developer Notes
 - Loader Location: The loader **must be placed inside its own folder**. Running it loose will cause paths to break and the loader will not function correctly.
+
 
 
 
