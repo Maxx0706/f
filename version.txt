@@ -1,1 +1,1 @@
-https://github.com/Maxx0706/f/blob/2dffc1473231494ce855ea1e4d3873f00a13f011/latest.dll
+https://github.com/Maxx0706/f/raw/refs/heads/main/latest.dll
