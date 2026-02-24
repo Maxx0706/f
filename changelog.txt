@@ -13,6 +13,8 @@
 - Jump Unmasked: Allows jumping without triggering mask-on restrictions or state checks.
 - Wallbang: Enables projectiles to penetrate surfaces by modifying collision and penetration logic.
 
+## NEXT FEATURE IS INSTANT RELOAD FOR RAGING
+
 ## FOV Overhaul
 - FOV System: Integrated a dynamic FOV circle with advanced animation support.
 - Color Breathing: Added a toggleable transition system between two custom colors for the FOV.
