@@ -1,7 +1,10 @@
-## Version 1.4.0 (Current Release)
+## Version 1.5.0 (Beta)
 
-## Major Aim System Overhau
+## Major Aim System Overhaul
 - Target Persistence Fix: Optimized G::pSilentTarget handling to prevent "ghost locking" on invalid or dead actors.
+
+# Testing New Gui
+- Do you like the new menu?
 
 ## New Features
 - Rapid Fire: Globally adjusted RoundsPerMinute for all ranged weapons.
@@ -30,5 +33,6 @@
 
 ## Developer Notes
 - Loader Location: The loader **must be placed inside its own folder**. Running it loose will cause paths to break and the loader will not function correctly.
+
 
 
