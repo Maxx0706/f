@@ -7,6 +7,12 @@
 - Rapid Fire: Globally adjusted RoundsPerMinute for all ranged weapons.
 - Triggerbot: Automatically fire at a valid target.
 
+## FOV Overhaul
+- FOV System: Integrated a dynamic FOV circle with advanced animation support.
+- Color Breathing: Added a toggleable transition system between two custom colors for the FOV.
+- LGBT FOV Mode: Added a dedicated rainbow cycling mode for the FOV circle.
+- Animation Suite: Included Static, Size Breathing, Rotating Spiral, and Color Spiral animation types for the aim interface.
+
 ## Changes & Improvements
 - SDK Optimization: Switched actor scanning to ASBZCharacter for better performance and target acquisition.
 - Weapon Data Backup System: Implemented a map-based backup system for weapon stats, ensuring game stability when switching between different weapon types.
@@ -24,4 +30,5 @@
 
 ## Developer Notes
 - Loader Location: The loader **must be placed inside its own folder**. Running it loose will cause paths to break and the loader will not function correctly.
+
 
